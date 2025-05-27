@@ -1,0 +1,37 @@
+@import url("reset.css");
+* {
+  color: deeppink;
+}
+h1 {
+  color: black;
+}
+.sub-title {
+  color: aqua;
+}
+.sub-title-list a {
+  color: indigo;
+}
+h2.general-info {
+  color: aquamarine;
+}
+.general-text p {
+  color: cornflowerblue;
+}
+#cultureAndHistory {
+  color: darkslateblue;
+}
+[id*="ur"] {
+  color: darkblue;
+}
+[id*="ain"] {
+  color: darkgreen;
+}
+.list li {
+  color: blue;
+}
+.nature-list > li {
+  color: purple;
+}
+.list-modernUkrainians li {
+  color: springgreen;
+}
