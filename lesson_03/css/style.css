@@ -11,11 +11,12 @@ h1 {
 .sub-title-list a {
   color: indigo;
 }
-h2.general-info {
-  color: aquamarine;
-}
+
 .general-text p {
   color: cornflowerblue;
+}
+.general-text + p {
+  color: hotpink;
 }
 #cultureAndHistory {
   color: darkslateblue;
@@ -26,8 +27,13 @@ h2.general-info {
 [id*="ain"] {
   color: darkgreen;
 }
-.list li {
-  color: blue;
+.first-item,
+.second-item,
+.third-item {
+  color: palevioletred;
+}
+.forth-item.last-item {
+  color: crimson;
 }
 .nature-list > li {
   color: purple;
@@ -35,3 +41,27 @@ h2.general-info {
 .list-modernUkrainians li {
   color: springgreen;
 }
+.item-modernUkrainians ~ li {
+  color: navy;
+}
+
+
+/* додаткове завдання  */
+/* 1 рівень вкладеності => перший li має бути червоного кольору, всі інші пункти зеленого кольору */
+
+ul > li {
+  color: red; 
+}
+
+ul > li + li {
+  color: green; 
+}
+/* 2 рівень вкладеності => перший li має бути синього кольору, всі інші li 2 рівня вкладеності помаранчевого */
+ul > li > ul > li  {color:blue}
+ul > li > ul > li + li {color:orange}
+ul > li > ul > li + li + li span {color: #a0f0fc;}
+/* 3 рівень вкладеності => перший li має бути #4597f7кольору, всі інші li 3 рівня вкладеності #5d5d5d
+span в який загорнутий текст на лише 2 рівні вкладеності має бути кольору #a0f0fc */
+ul > li > ul > li + li >  ol > li {color:#4597f7}
+ul > li > ul > li + li >  ol > li span {color:#5d5d5d}
+ul > li > ul > li + li >  ol > li + li {color:#5d5d5d}
