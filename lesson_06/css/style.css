@@ -1,0 +1,185 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #808080;
+  line-height: 1.5;
+}
+
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 648px;
+  margin: 0 auto;
+}
+.ecobazar {
+  margin-bottom: 50px;
+}
+.page {
+  padding: 30px;
+}
+h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.info-text {
+  margin-bottom: 20px;
+}
+.info-text.last-text {
+  margin-bottom: 0;
+}
+.info-item {
+  line-height: 1.4;
+  margin-bottom: 14px;
+  background-image: url("../img/Check.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+  padding-left: 28px;
+}
+.info-item.last-item {
+  margin-bottom: 20px;
+}
+
+.wrapper.hydra {
+  text-align: center;
+}
+.hydra {
+  background-color: #302c42;
+}
+.hydra .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+.hydra-contact-list {
+  display: inline-block;
+  text-align: start;
+  font-size: 0;
+  width: 100%;
+  padding: 49px 39px;
+  max-width: 1272px;
+  margin-bottom: 151px;
+  border-radius: 90px;
+  box-shadow: 0 4px 4px 0 rgba(192, 183, 232, 0.01);
+  background: radial-gradient(
+    2900.76% 50.13% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+}
+.item-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.visit .item-title,
+.visit .item-subtitle {
+  padding-left: 56px;
+}
+.call .item-title,
+.call .item-subtitle,
+.message .item-title,
+.message .item-subtitle {
+  padding-left: 88px;
+}
+
+.item-subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  max-width: 360px;
+}
+.hydra-contact-item {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-wrap: wrap;
+  font-size: 14px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.hydra-contact-item.visit {
+  min-width: 403px;
+  margin-right: 47px;
+  background-image: url("../img/location.png");
+  background-position: left center;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+.hydra-contact-item.call {
+  min-width: 323px;
+  margin-right: 47px;
+  background-image: url("../img/phonecall.png");
+  background-position: left center;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+.hydra-contact-item.message {
+  background-image: url("../img/mail.png");
+  background-position: left center;
+}
+
+.about-hydra {
+  text-align: start;
+  font-size: 0;
+  background: url("../img/top.png") no-repeat top center, url("../img/bottom.png") no-repeat bottom center
+}
+
+.about-img,
+.about-hydra-text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about-img {
+  width: 524px;
+  margin-right: 117px;
+  margin-left: 84px;
+}
+
+.about-hydra-text {
+  padding-top: 50px;
+  max-width: 630px;
+}
+.about-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 42px;
+}
+.about-title strong {
+  font-weight: 700;
+  color: #fff;
+}
+.about-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  max-width: 630px;
+  margin-bottom: 28px;
+}
+.about-link {
+  display: inline-block;
+  border-radius: 40px;
+  width: 214px;
+  height: 48px;
+  text-align: center;
+  padding-top: 17px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #343045;
+}
